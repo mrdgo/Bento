@@ -2,11 +2,11 @@ var today = new Date();
 var Hr = today.getHours();
 
 // Here you can change the greetings and your name
-var name = 'John Doe';
-var lateTxt = 'Go to Sleep! ';
-var morningTxt = 'Good morning! ';
-var afterTxt = 'Good afternoon ';
-var evenTxt = 'Good evening ';
+var name = 'Maxim';
+var lateTxt = 'Gute Nacht! ';
+var morningTxt = 'Guten Morgen! ';
+var afterTxt = 'Guten Nachmittag ';
+var evenTxt = 'Guten Abend ';
 
 if (Hr >= 0 && Hr < 6) {
     document.getElementById('greetings').innerText = lateTxt + name;
