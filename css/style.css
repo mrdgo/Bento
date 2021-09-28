@@ -101,6 +101,7 @@ body {
 }
 
 .card {
+    margin-bottom: 20px;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
     background-color: var(--sbg);
