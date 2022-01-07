@@ -7,16 +7,16 @@
     --fses: 18px;
 
     /* Light theme  */
-    --accent: #b8bb26;
-    --bg: #1b2021;
-    --sbg: #282828;
-    --fg: #ebdbb2;
+    /* --accent: #b8bb26; */
+    /* --bg: #1b2021; */
+    /* --sbg: #282828; */
+    /* --fg: #ebdbb2; */
 
     /* Image background  */
 
-    /* Uncoment this section to get the 
-    image wallpaper. You can also 
-    change the --imgcol value 
+    /* Uncoment this section to get the
+    image wallpaper. You can also
+    change the --imgcol value
     to make the filter to your own */
 
     /* --imgbg: url(/img/wal.jpg); */
