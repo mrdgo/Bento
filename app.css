@@ -26,8 +26,8 @@
 
   /* Light Colors  */
   --accent: #98971a; /* Hover color */
-  --background: #242424; /* Background color */
-  --cards: #202020; /* Cards color */
+  --background: #202020; /* Background color */
+  --cards: #161616; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -40,12 +40,12 @@
 .darktheme {
   /* Dark Colors  */
   --accent: #98971a; /* Hover color */
-  --background: #242424; /* Background color */
-  --cards: #202020; /* Cards color */
+  --background: #202020; /* Background color */
+  --cards: #161616; /* Cards color */
 
   /* Fonts Color */
   --fg: #ebdbb2; /* Foreground color */
-  --sfg: #242424; /* Secondary Foreground color */
+  --sfg: #ebdbb2; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
