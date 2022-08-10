@@ -1,94 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>🍱</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="https://unpkg.com/feather-icons"></script>
-    </head>
-    <body class="">
-        <div class="container">
-            <div class="fblock">
-                <div class="clock">
-                    <div id="hour" class=""></div>
-                    <div id="separator" class=""></div>
-                    <div id="minutes" class=""></div>
-                </div>
-                <div id="greetings" class=""></div>
-            </div>
-            <div class="sblock">
-                <div class="sblock__date">
-                    <div id="month" class=""></div>
-                    <div id="day" class=""></div>
-                </div>
-            </div>
-            <div class="card qlist">
-                <i class="qlist__head" data-feather="terminal"></i>
-                <a
-                    href="https://isento-gmbh.personio.de"
-                    class="qlist__link" >Personio</a
-                >
-                <a
-                    href="https://isento.atlassian.net/wiki"
-                    class="qlist__link" >Confluence</a
-                >
-                <a
-                    href="https://isento.atlassian.net/secure/RapidBoard.jspa?rapidView=43&projectKey=LEA"
-                    class="qlist__link" >Jira</a
-                >
-                <a href="https://jenkins.isento.net"
-                    class="qlist__link">Jenkins</a>
-                <a href="https://sonar.isento.net"
-                    class="qlist__link">SonarQubes</a>
-                <a
-                    href="https://gitlab.isento.net"
-                    class="qlist__link">Gitlab</a>
-                <a
-                    href="https://outlook.live.com/mail/inbox"
-                    class="qlist__link">Outlook Inbox</a>
-            </div>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bento</title>
+		<link rel=" shortcut icon" type="image/png" href="assets/icons/favicon.png" />
+		<link rel="stylesheet" href="app.css" />
+		<script src="https://unpkg.com/lucide@latest"></script>
+	</head>
 
-            <div class="card qlist">
-                <i class="qlist__head" data-feather="play"></i>
-                <a
-                    href="https://maximtech86210973.wordpress.com/wp-admin/index.php"
-                    class="qlist__link">Blog</a>
-                <a href="https://typingclub.com/" class="qlist__link">Typing Club</a>
-                <a href="https://www.udemy.com/" class="qlist__link">Udemy</a>
-                <a href="https://onepiece-tube.com" class="qlist__link">Onepiece</a>
-                <a href="https://naruto-tube.org/" class="qlist__link">Naruto</a>
-            </div>
+	<!-- 
+      ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
+      ╠╩╗║╣ ║║║ ║ ║ ║
+      ╚═╝╚═╝╝╚╝ ╩ ╚═╝
+      -->
 
-            <div class="card qlist">
-                <i class="qlist__head" data-feather="coffee"></i>
-                <a
-                    href="https://github.com/"
-                    class="qlist__link">Github</a>
-                <a
-                    href="https://calendar.google.com/calendar/r"
-                    class="qlist__link">Google Calendar</a>
-                <a
-                    href="https://mail.google.com/"
-                    class="qlist__link">Google Mail</a>
-                <a
-                    href="https://sci-hub.st/"
-                    class="qlist__link">Sci-Hub</a>
-                <a
-                    href="https://scholar.google.com"
-                    class="qlist__link">Google Scholar</a>
-            </div>
-            <div class="card qlist">
-                <i class="qlist__head" data-feather="book"></i>
-                <a href="https://studon.fau.de" class="qlist__link">Studon</a>
-                <a href="https://faumail.fau.de" class="qlist__link">Faumail</a>
-                <a href="https://campus.fau.de" class="qlist__link">MeinCampus</a>
-            </div>
-        </div>
-        <script src="js/time.js"></script>
-        <script src="js/greeting.js"></script>
-        <script src="js/weather.js"></script>
-        <script>
-            feather.replace();
-        </script>
-    </body>
+	<body class="">
+		<button id="themeButton">
+			<i id="themeIcon" icon-name="moon"></i>
+		</button>
+		<div class="container">
+			<!-- Clock and Greetings  -->
+
+			<div class="timeBlock">
+				<div class="clock">
+					<div id="hour"></div>
+					<div id="separator"></div>
+					<div id="minutes"></div>
+				</div>
+				<div id="greetings"></div>
+			</div>
+
+			<!-- Date and Weather  -->
+
+			<div class="weatherBlock">
+				<div class="date">
+					<div id="month"></div>
+					<div id="day"></div>
+				</div>
+				<div class="weather">
+					<div class="weatherIcon">
+						<img src="assets/icons/OneDark/unknown.png" />
+					</div>
+					<div class="weatherValue">
+						<p>- °<span class="g">c</span></p>
+					</div>
+					<div class="weatherDescription">
+						<p></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="linksBlock" id="linksBlock">
+				<div class="linksBlockLeft" id="linksBlockLeft"></div>
+				<div class="linksBlockRight" id="linksBlockRight"></div>
+			</div>
+		</div>
+
+		<!-- Config  -->
+		<script src="config.js"></script>
+
+		<!-- Scripts  -->
+		<script src="assets/js/layout.js"></script>
+		<script src="assets/js/theme.js"></script>
+		<script src="assets/js/time.js"></script>
+		<script src="assets/js/greeting.js"></script>
+		<script src="assets/js/weather.js"></script>
+
+		<!-- Generators  -->
+		<script src="assets/js/buttons.js"></script>
+		<script src="assets/js/lists.js"></script>
+
+		<!-- Icons -->
+		<script>
+			lucide.createIcons();
+		</script>
+	</body>
+
+	<!-- Developed and designed by Miguel Ávila: -->
+	<!-- https://avila.sh-->
 </html>
