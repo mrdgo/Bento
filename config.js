@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'M4X1M',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -25,18 +25,8 @@ const CONFIG = {
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
-	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
-
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
-
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -61,7 +51,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://https://outlook.live.com/owa/',
 		},
 		{
 			id: '3',
@@ -161,20 +151,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Confluence',
+					link: 'https://isento.atlassian.net/wiki/spaces/AI/overview',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Jira',
+					link: 'https://isento.atlassian.net/jira/software/c/projects/LEA/boards/43',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Personio',
+					link: 'https://isento-gmbh.personio.de',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Gitlab',
+					link: 'https://gitlab.isento.net',
 				},
 			],
 		},

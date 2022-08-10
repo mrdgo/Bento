@@ -1,13 +1,13 @@
-/* 
+/*
 // ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
 // ╠╩╗║╣ ║║║ ║ ║ ║
-// ╚═╝╚═╝╝╚╝ ╩ ╚═╝ 
+// ╚═╝╚═╝╝╚╝ ╩ ╚═╝
 */
 
-/* 
+/*
 //  ┬  ┬┌─┐┬─┐┬┌─┐┌┐ ┬  ┌─┐┌─┐
 //  ┐┌┘├─┤├┬┘│├─┤├┴┐│  ├┤ └─┐
-//  ┘ ┴ ┴┴└─┴┴ ┴└─┘┴─┘└─┘└─┘ 
+//  ┘ ┴ ┴┴└─┴┴ ┴└─┘┴─┘└─┘└─┘
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
@@ -21,13 +21,13 @@
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --fg: #ebdbb2; /* Foreground color */
+  --sfg: #ebdbb2; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  --accent: #98971a; /* Hover color */
+  --background: #242424; /* Background color */
+  --cards: #202020; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -39,13 +39,13 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #98971a; /* Hover color */
+  --background: #242424; /* Background color */
+  --cards: #202020; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #ebdbb2; /* Foreground color */
+  --sfg: #242424; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -54,10 +54,10 @@
   ); /* Filter color */
 }
 
-/* 
+/*
 //  ┌─┐┌┬┐┬ ┬┬  ┌─┐┌─┐
 //  └─┐ │ └┬┘│  ├┤ └─┐
-//  └─┘ ┴  ┴ ┴─┘└─┘└─┘ 
+//  └─┘ ┴  ┴ ┴─┘└─┘└─┘
 */
 
 * {

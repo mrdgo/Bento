@@ -15,11 +15,11 @@ $bp-smallest: 31.25em;
 
     // C O L O R S
 
-    --accent: #186efdaa;
+    --accent: #98971a;
 
-    --bg: #f5f5f5;
-    --sbg: #e4e6e6;
-    --fg: #3a3a3a;
+    --bg: #161616;
+    --sbg: #202020;
+    --fg: #ebdbb2;
 
     --imgbg: url(/img/wal.jpg);
 
@@ -33,11 +33,11 @@ $bp-smallest: 31.25em;
     }
 }
 .darktheme {
-    --accent: #186efd60;
+    --accent: #98971a;
 
 
-    --bg: #1e1f21;
-    --sbg: #2c2d31;
+    --bg: #161616;
+    --sbg: #202020;
     --fg: #ebdbb2;
 
     --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
