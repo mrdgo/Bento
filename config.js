@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'M4X1M',
+	name: 'maxim',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
