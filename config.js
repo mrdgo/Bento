@@ -51,7 +51,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://https://outlook.live.com/owa/',
+			link: 'https://outlook.live.com/owa/',
 		},
 		{
 			id: '3',
