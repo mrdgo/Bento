@@ -11,19 +11,19 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'maxim',
+	name: 'maxim.',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning,',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to sleep,',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Autochange
 	autoChangeTheme: false,
@@ -125,24 +125,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'computer',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'rautetafel',
+					link: 'https://pad.stuve.fau.de/rautetafel',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'cip board',
+					link: 'https://gitlab.cs.fau.de/icipguru/CIP/-/boards/336',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'gitos rrze',
+					link: 'https://gitos.rrze.fau.de',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'gitlab cip',
+					link: 'https://gitlab.cs.fau.de',
 				},
 			],
 		},
@@ -151,20 +151,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Confluence',
-					link: 'https://isento.atlassian.net/wiki/spaces/AI/overview',
+					name: 'dokuwiki',
+					link: 'https://www4.cs.fau.de/dokuwiki/',
 				},
 				{
-					name: 'Jira',
-					link: 'https://isento.atlassian.net/jira/software/c/projects/LEA/boards/43',
+					name: 'taiga',
+					link: 'https://i4taiga.cs.fau.de/',
 				},
 				{
-					name: 'Personio',
-					link: 'https://isento-gmbh.personio.de',
+					name: 'campo',
+					link: 'https://campo.fau.de',
 				},
 				{
-					name: 'Gitlab',
-					link: 'https://gitlab.isento.net',
+					name: 'studon',
+					link: 'https://studon.fau.de',
 				},
 			],
 		},
@@ -195,12 +195,12 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'book',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'SPiC website',
+					link: 'https://sys.cs.fau.de/lehre/ss24/spic/',
 				},
 				{
 					name: 'Rust',
