@@ -177,20 +177,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'monitoring',
+					link: 'https://i4mon.cs.fau.de',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'homematic',
+					link: 'https://homematic-ip.informatik.uni-erlangen.de',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: '?',
+					link: 'https://youtube.com',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: '?',
+					link: 'https://youtube.com',
 				},
 			],
 		},
